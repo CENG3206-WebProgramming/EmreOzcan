@@ -1,0 +1,40 @@
+#flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+body{
+  font-family: 'Montserrat'
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+th, td {
+  padding: 15px;
+}
+table{
+  border: 1px solid #ddd;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius:12px;
+  overflow:hidden
+}
+th {
+  background-color: #0081d1;
+  color: white;
+}
+tr:nth-child(odd) {background-color: #f2f2f2;}
+tr:hover {background-color: #d1d1d1;}
+h1:hover{color:#0081d1 }
+th:hover {background-color: #85a9ff;}
